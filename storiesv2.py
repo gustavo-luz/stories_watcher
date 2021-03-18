@@ -1,14 +1,21 @@
 import pyautogui
 import time
 from time import sleep
-print(pyautogui.size())
+#print(pyautogui.size())
 
 # TODO future use this https://pypi.org/project/webbot/
 #pyautogui.moveTo(344,54, duration = 10)
 
 #pyautogui.moveRel(0, 50, duration = 1)
 sleep(2)
-print(pyautogui.position())
+#print(pyautogui.position())
+
+#user input
+
+num_cliques = input("How many stories?")
+print(num_cliques + " times")
+num_cliques = int(num_cliques)
+#print(type(num_cliques))
 
 
 #open microsoft edge
@@ -27,17 +34,12 @@ sleep(8)
 #open first stories
 pyautogui.hotkey("tab", "enter")
 #pyautogui.click(237,204)
-print("início do bot")
+print("Bot starting")
 sleep(4)
 
-#user input
-"""
-num_cliques = input("Quantas vezes quer clicar?")
-print(num_cliques + " vezes")
-num_cliques = int(num_cliques)
-print(type(num_cliques))
-"""
-num_cliques = 15
+
+
+#num_cliques = 100
 
 #counter
 contador = 1
